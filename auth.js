@@ -1,5 +1,5 @@
 function login(username, password) {
-    // Tài khoản bị khóa
+    // Kiểm tra tài khoản bị khóa
     if (username === "locked") {
         return false;
     }
