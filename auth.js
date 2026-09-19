@@ -4,7 +4,7 @@ function login(username, password) {
         return false;
     }
 
-    // Kiểm tra tài khoản hợp lệ
+    // Kiểm tra tài khoản hợp lệ hay không
     if (username === "admin" && password === "123") {
         return true;
     }
